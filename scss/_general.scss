@@ -1,0 +1,21 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "SFPRO regular";
+    src: url(../assets/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+    font-family: "SFPRO medium";
+    src: url(../assets/fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: "SFPRO bold";
+    src: url(../assets/fonts/SFPRODISPLAYBOLD.OTF);
+}

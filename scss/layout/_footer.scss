@@ -1,0 +1,496 @@
+footer {
+    width: 100%;
+    height: 309px;
+    .wrapper {
+        display: flex;
+        padding: 30px 0;
+        .left {
+            padding-right: 48px;
+            .published {
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #878787;
+                padding-bottom: 8px;
+                padding-top: 24px;
+            }
+            p {
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #878787;
+            }
+            article {
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #b7b7b7;
+                max-width: 265px;
+                padding-top: 24px;
+            }
+        }
+        .left-footer {
+            display: none;
+        }
+        .middle-left {
+            list-style-type: none;
+            padding-top: 10px;
+            display: grid;
+            row-gap: 16px;
+            margin-right: 40px;
+            max-height: 229px;
+            max-width: 225px;
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #100e0e;
+                }
+            }
+        }
+        .middle-right {
+            padding-right: 155px;
+            list-style-type: none;
+            padding-top: 10px;
+            display: grid;
+            row-gap: 16px;
+            max-height: 194px;
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #100e0e;
+                }
+            }
+        }
+        .right {
+            h3 {
+                padding-top: 2px;
+                font-family: "SFPRO medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                color: #100e0e;
+            }
+            .consultation {
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #706e6e;
+                padding-top: 4px;
+                padding-bottom: 7px;
+            }
+            .link {
+                display: flex;
+                gap: 24px;
+                padding-bottom: 36px;
+                align-items: center;
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #0071e4;
+                }
+                .images {
+                    cursor: pointer;
+                    gap: 8px;
+                }
+            }
+            .manzil {
+                display: grid;
+                row-gap: 16px;
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #100e0e;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        width: 100%;
+        height: 547px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 24px 0;
+
+            .left {
+                padding-right: 0;
+                display: flex;
+                margin-bottom: 32px;
+                .footerlogo {
+                    margin-right: 24px;
+                    img {
+                        width: 39px;
+                        height: 45px;
+                    }
+                }
+                .published {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #878787;
+                    padding-bottom: 8px;
+                    padding-top: 8px;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #878787;
+                }
+                article {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #b7b7b7;
+                    max-width: 441px;
+                    padding-top: 8px;
+                }
+            }
+            .left-footer {
+                display: none;
+            }
+            .middle-left {
+                list-style-type: none;
+                padding-top: 0px;
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 591px;
+                gap: 16px;
+                margin-right: 0;
+                margin-bottom: 32px;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+            .middle-right {
+                padding-right: 0;
+                list-style-type: none;
+                padding-top: 10px;
+                display: flex;
+                gap: 16px;
+                margin-bottom: 32px;
+                li {
+                    a {
+                        text-decoration: none;
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                .content {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 72px;
+                    h3 {
+                        padding-top: 2px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #100e0e;
+                        margin-right: 16px;
+                    }
+                    .consultation {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #706e6e;
+                        padding-top: 4px;
+                        padding-bottom: 7px;
+                        margin-right: 137px;
+                    }
+                    .link {
+                        display: flex;
+                        gap: 24px;
+                        padding-bottom: 0;
+                        position: relative;
+                        p {
+                            position: absolute;
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #0071e4;
+                            top: 60px;
+                            left: -600px;
+                        }
+                        .images {
+                            gap: 8px;
+                            img {
+                                height: 32px;
+                                width: 32px;
+                            }
+                        }
+                    }
+                }
+                .manzil {
+                    display: grid;
+                    row-gap: 16px;
+                    p {
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+        }
+        .fixedmenu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 48px;
+            background: #ffffff;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.05);
+            bottom: 0;
+            display: fixed;
+            div {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                p {
+                    font-family: "SFPRO Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #282626;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    footer {
+        width: 100%;
+        height: 780px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 16px 0;
+
+            .left {
+                display: none;
+            }
+            .left-footer {
+                padding-right: 0;
+                display: flex;
+                margin-bottom: 32px;
+                flex-direction: column;
+                .content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .footerlogo {
+                        margin-right: 16px;
+                        img {
+                            width: 26px;
+                            height: 30px;
+                        }
+                    }
+                    .published {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #878787;
+                        padding-bottom: 4px;
+                        padding-top: 0;
+                    }
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #878787;
+                    }
+                }
+                .article {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    article {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 11px;
+                        line-height: 13px;
+                        color: #b7b7b7;
+                        max-width: 200px;
+                        padding-top: 4px;
+                    }
+                }
+            }
+            .middle-left {
+                list-style-type: none;
+                padding-top: 0px;
+                display: flex;
+                flex-direction: column;
+                max-width: 225px;
+                gap: 8px;
+                margin-right: 0;
+                margin-bottom: 24px;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+            .middle-right {
+                padding-right: 0;
+                list-style-type: none;
+                padding-top: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 16px;
+                li {
+                    a {
+                        text-decoration: none;
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                .content {
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    margin-bottom: 4px;
+                    h3 {
+                        padding-top: 2px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #100e0e;
+                        margin-right: 0;
+                    }
+                    .consultation {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #706e6e;
+                        padding-top: 4px;
+                        padding-bottom: 4px;
+                        margin-right: 0;
+                    }
+                    .link {
+                        display: flex;
+                        gap: 16px;
+                        padding-bottom: 0;
+                        position: inherit;
+                        flex-direction: column;
+
+                        p {
+                            position: inherit;
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #0071e4;
+                        }
+                        .images {
+                            gap: 8px;
+                            img {
+                                height: 32px;
+                                width: 32px;
+                            }
+                        }
+                    }
+                }
+                .manzil {
+                    display: grid;
+                    row-gap: 8px;
+                    p {
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #100e0e;
+                    }
+                }
+            }
+        }
+    }
+}

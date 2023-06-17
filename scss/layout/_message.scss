@@ -1,0 +1,351 @@
+#message {
+    background: #f9f9f9;
+    .wrapper {
+        display: flex;
+        padding: 40px 0;
+        gap: 88px;
+        align-items: center;
+        .left {
+            img {
+                background-color: #f9f9f9;
+            }
+        }
+        .right {
+            h2 {
+                font-family: "SFPRO bold";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                color: #100e0e;
+                max-width: 421px;
+            }
+            p {
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                color: #585656;
+                max-width: 454px;
+                padding-top: 8px;
+                padding-bottom: 25px;
+            }
+            .card {
+                width: 486px;
+                height: 196px;
+                background: linear-gradient(
+                    90.34deg,
+                    #f7355d 0.3%,
+                    #9747ff 101.33%
+                );
+                border-radius: 16px;
+                padding: 16px 32px;
+                h2 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: #ffffff;
+                    padding-left: 8px;
+                }
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #ffffff;
+                    padding-left: 8px;
+                }
+                .inputbutton {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    input {
+                        width: 246px;
+                        height: 56px;
+                        background: #ffffff;
+                        border: 1px solid #dbdbdb;
+                        border-radius: 8px;
+                        outline: none;
+                        padding: 13px 24px;
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #878787;
+                        &:hover {
+                            border: 1px solid #0071e4;
+                        }
+
+                        &::placeholder {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                        }
+                    }
+                    button {
+                        cursor: pointer;
+                        width: 160px;
+                        height: 56px;
+                        background: #e7e7e7;
+                        border-radius: 8px;
+                        outline: none;
+                        border: none;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #585656;
+                    }
+                }
+            }
+            .cardwrap {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #message {
+        background: #f9f9f9;
+        .wrapper {
+            display: flex;
+            padding: 24px 0;
+            gap: 32px;
+            align-items: start;
+            .left {
+                img {
+                    width: 224.56px;
+                    height: 173px;
+                }
+            }
+            .right {
+                margin-top: 8px;
+                h2 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;
+                    color: #100e0e;
+                    max-width: 421px;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    padding-top: 8px;
+                    padding-bottom: 16px;
+                    max-width: 300px;
+                }
+                .card {
+                    display: none;
+                }
+                .cardwrap {
+                    display: flex;
+                    flex-direction: column;
+                    .card2 {
+                        margin-bottom: 16px;
+                        width: 279px;
+                        height: 63px;
+                        background: linear-gradient(
+                            90.34deg,
+                            #f7355d 0.3%,
+                            #9747ff 101.33%
+                        );
+                        border-radius: 16px;
+                        padding: 8px 16px;
+                        .skidka {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            color: #ffffff;
+                            margin: 0;
+                            padding-top: 0px;
+                            padding-bottom: 4px;
+                        }
+                        .pokupka {
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            color: #ffffff;
+                            padding-top: 0;
+                        }
+                    }
+                    .inputbutton {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        input {
+                            width: 246px;
+                            height: 56px;
+                            background: #ffffff;
+                            border: 1px solid #dbdbdb;
+                            border-radius: 8px;
+                            outline: none;
+                            padding: 13px 24px;
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #e7e7e7;
+                            &:hover {
+                                border: 1px solid #0071e4;
+                            }
+                        }
+                        button {
+                            cursor: pointer;
+                            width: 160px;
+                            height: 56px;
+                            background: #e7e7e7;
+                            border-radius: 8px;
+                            outline: none;
+                            border: none;
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    #message {
+        background: #ffffff;
+        height: 344px;
+        width: 100%;
+        margin-bottom: 24px;
+        .wrapper {
+            display: flex;
+            padding: 24px 0;
+            align-items: start;
+            .left {
+                display: none;
+            }
+            .right {
+                margin-top: 0;
+                justify-content: center;
+                h2 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    max-width: 228px;
+                    margin-bottom: 8px;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    max-width: 300px;
+                    margin-bottom: 8px;
+                }
+                .card {
+                    display: none;
+                }
+                .cardwrap {
+                    display: flex;
+                    flex-direction: column;
+                    width: 288px;
+                    height: 56px;
+                    .card2 {
+                        margin-bottom: 16px;
+
+                        background: linear-gradient(
+                            90.34deg,
+                            #f7355d 0.3%,
+                            #9747ff 101.33%
+                        );
+                        border-radius: 16px;
+                        padding: 8px 16px;
+                        .skidka {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            color: #ffffff;
+                            margin: 0;
+                            padding-top: 0px;
+                            padding-bottom: 4px;
+                        }
+                        .pokupka {
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #ffffff;
+                            padding-top: 0;
+                        }
+                    }
+                    .inputbutton {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 16px;
+                        input {
+                            width: 288px;
+                            height: 56px;
+                            background: #ffffff;
+                            border: 1px solid #dbdbdb;
+                            border-radius: 8px;
+                            outline: none;
+                            padding: 13px 24px;
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #878787;
+                            &::placeholder {
+                                font-family: "SFPRO regular";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 29px;
+                                color: #100e0e;
+                            }
+                        }
+                        button {
+                            cursor: pointer;
+                            width: 288px;
+                            height: 56px;
+                            background: #e7e7e7;
+                            border-radius: 8px;
+                            outline: none;
+                            border: none;
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

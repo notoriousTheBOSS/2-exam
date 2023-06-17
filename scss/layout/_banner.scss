@@ -1,0 +1,168 @@
+#banner {
+    height: 360px;
+    background: #000000;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        gap: 88px;
+        .minismartphone {
+            display: none;
+        }
+        .smallestsmrt {
+            display: none;
+        }
+        .content {
+            h1 {
+                font-family: "SFPRO bold";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                color: #ffffff;
+                margin: 0;
+            }
+            h3 {
+                font-family: "SFPRO medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #ffffff;
+                margin-top: 16px;
+                margin-bottom: 24px;
+            }
+
+            button {
+                width: 160px;
+                height: 56px;
+                background: #0071e4;
+                border: none;
+                border-radius: 8px;
+                color: white;
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                cursor: pointer;
+                &:hover {
+                    background: #2a93fd;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #banner {
+        height: 217px;
+        background: #000000;
+        .wrapper {
+            display: flex;
+            align-items: center;
+            gap: 72px;
+            .smartphone {
+                display: none;
+            }
+            .minismartphone {
+                display: block;
+            }
+            .smallestsmrt {
+                display: none;
+            }
+            .content {
+                h1 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;
+                    color: #ffffff;
+                    margin: 0;
+                }
+                h3 {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                    margin-top: 8px;
+                    margin-bottom: 16px;
+                }
+                button {
+                    cursor: pointer;
+                    width: 160px;
+                    height: 56px;
+                    left: 454px;
+                    top: 220px;
+                    background: #0071e4;
+                    border-radius: 8px;
+                    border: none;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    #banner {
+        height: 151px;
+        background: #000000;
+        .wrapper {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            .smartphone {
+                display: none;
+            }
+            .minismartphone {
+                display: none;
+            }
+            .smallestsmrt {
+                display: block;
+            }
+            .content {
+                h1 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    margin: 0;
+                }
+                h3 {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                    margin-top: 4px;
+                    margin-bottom: 16px;
+                }
+                button {
+                    cursor: pointer;
+                    width: 160px;
+                    height: 40px;
+                    left: 454px;
+                    top: 220px;
+                    background: #0071e4;
+                    border-radius: 8px;
+                    border: none;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

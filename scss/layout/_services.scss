@@ -1,0 +1,782 @@
+#services {
+    margin-bottom: 40px;
+    .wrapper {
+        h2 {
+            text-align: center;
+            font-style: normal;
+            font-family: "SFPRO bold";
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #100e0e;
+            padding-top: 40px;
+            padding-bottom: 24px;
+        }
+        .servislar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            .card1 {
+                width: 228px;
+                height: 500px;
+                padding: 24px 8px 32px 8px;
+                background: linear-gradient(
+                    180.04deg,
+                    #fe94a6 0.04%,
+                    #f2f2f2 65.84%
+                );
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    text-align: center;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    text-align: center;
+                    padding-bottom: 95px;
+                }
+
+                button {
+                    width: 212px;
+                    height: 56px;
+                    border: 1px solid #0071e4;
+                    border-radius: 8px;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0071e4;
+                    cursor: pointer;
+                }
+            }
+            .card2 {
+                width: 228px;
+                height: 500px;
+                padding: 24px 8px 32px 8px;
+                background: linear-gradient(
+                    180.04deg,
+                    #e685ff 0.04%,
+                    #f2f2f2 65.84%
+                );
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    text-align: center;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    text-align: center;
+                    padding-bottom: 32px;
+                }
+                button {
+                    width: 212px;
+                    height: 56px;
+                    border: 1px solid #0071e4;
+                    border-radius: 8px;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0071e4;
+                    cursor: pointer;
+                }
+            }
+            .card3 {
+                width: 228px;
+                height: 500px;
+                padding: 24px 8px 32px 8px;
+                background: linear-gradient(
+                    180.04deg,
+                    #7de9ff 0.04%,
+                    #f2f2f2 65.84%
+                );
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    text-align: center;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    text-align: center;
+                    padding-bottom: 90px;
+                }
+                button {
+                    width: 212px;
+                    height: 56px;
+                    border: 1px solid #0071e4;
+                    border-radius: 8px;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0071e4;
+                    cursor: pointer;
+                }
+            }
+            .card4 {
+                width: 228px;
+                height: 500px;
+                padding: 24px 8px 32px 8px;
+                background: linear-gradient(
+                    180.04deg,
+                    #ffe685 0.04%,
+                    #f7f7f7 65.84%
+                );
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    text-align: center;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    text-align: center;
+                    padding-bottom: 100px;
+                }
+                button {
+                    width: 212px;
+                    height: 56px;
+                    border: 1px solid #0071e4;
+                    border-radius: 8px;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0071e4;
+                    cursor: pointer;
+                }
+            }
+            .card5 {
+                width: 228px;
+                height: 500px;
+                padding: 24px 8px 32px 8px;
+                background: linear-gradient(
+                        180.04deg,
+                        #adffc1 0.04%,
+                        #f2f2f2 65.84%
+                    ),
+                    #f2f2f2;
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+                h4 {
+                    font-family: "SFPRO bold";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #100e0e;
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    text-align: center;
+                }
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #585656;
+                    text-align: center;
+                    padding-bottom: 100px;
+                }
+                button {
+                    width: 212px;
+                    height: 56px;
+                    border: 1px solid #0071e4;
+                    border-radius: 8px;
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0071e4;
+                    cursor: pointer;
+                }
+            }
+        }
+        .servislarmobile {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #services {
+        margin-bottom: 24px;
+        .wrapper {
+            h2 {
+                text-align: center;
+                font-style: normal;
+                font-family: "SFPRO bold";
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38px;
+                color: #100e0e;
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+            .servislar {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                .card1 {
+                    width: 720px;
+                    max-height: 158px;
+                    height: 100%;
+                    padding: 24px 71px 32px 24px;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .image {
+                        padding-bottom: 35px;
+                        img {
+                            width: 64px;
+                            height: 64px;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 26px;
+                        h4 {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            text-align: start;
+                        }
+                        p {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                            text-align: start;
+                            padding-bottom: 0;
+                            max-width: 307px;
+                            padding-right: 16px;
+                        }
+                    }
+
+                    button {
+                        width: 212px;
+                        height: 56px;
+                        border: 1px solid #0071e4;
+                        border-radius: 8px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0071e4;
+                        margin-left: 15px;
+                        cursor: pointer;
+                    }
+                }
+                .card2 {
+                    width: 720px;
+                    max-height: 177px;
+                    height: 100%;
+                    padding: 24px 71px 32px 24px;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .image {
+                        padding-bottom: 60px;
+                        img {
+                            width: 64px;
+                            height: 64px;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 26px;
+                        h4 {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            text-align: start;
+                        }
+                        p {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                            text-align: start;
+                            padding-bottom: 0;
+                            max-width: 330px;
+                            padding-right: 20px;
+                        }
+                    }
+
+                    button {
+                        width: 212px;
+                        height: 56px;
+                        border: 1px solid #0071e4;
+                        border-radius: 8px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0071e4;
+                        cursor: pointer;
+                    }
+                }
+                .card3 {
+                    width: 720px;
+                    max-height: 139px;
+                    height: 100%;
+                    padding: 24px 71px 32px 24px;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .image {
+                        padding-bottom: 35px;
+                        img {
+                            width: 64px;
+                            height: 64px;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 26px;
+                        h4 {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            text-align: start;
+                        }
+                        p {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                            text-align: start;
+                            padding-bottom: 0;
+                            max-width: 307px;
+                            padding-right: 16px;
+                        }
+                    }
+
+                    button {
+                        width: 212px;
+                        height: 56px;
+                        border: 1px solid #0071e4;
+                        border-radius: 8px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0071e4;
+                        margin-left: 18px;
+                        cursor: pointer;
+                    }
+                }
+                .card4 {
+                    width: 720px;
+                    max-height: 158px;
+                    height: 100%;
+                    padding: 24px 71px 32px 24px;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .image {
+                        padding-bottom: 35px;
+                        img {
+                            width: 64px;
+                            height: 64px;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 26px;
+                        h4 {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            text-align: start;
+                        }
+                        p {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                            text-align: start;
+                            padding-bottom: 0;
+                            max-width: 307px;
+                            padding-right: 16px;
+                        }
+                    }
+
+                    button {
+                        width: 212px;
+                        height: 56px;
+                        border: 1px solid #0071e4;
+                        border-radius: 8px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0071e4;
+                        margin-left: 15px;
+                        cursor: pointer;
+                    }
+                }
+                .card5 {
+                    width: 720px;
+                    max-height: 158px;
+                    height: 100%;
+                    padding: 24px 71px 32px 24px;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .image {
+                        padding-bottom: 35px;
+                        img {
+                            width: 64px;
+                            height: 64px;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 26px;
+                        h4 {
+                            font-family: "SFPRO bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #100e0e;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
+                            text-align: start;
+                        }
+                        p {
+                            font-family: "SFPRO regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #585656;
+                            text-align: start;
+                            padding-bottom: 0;
+                            max-width: 307px;
+                            padding-right: 16px;
+                        }
+                    }
+
+                    button {
+                        width: 212px;
+                        height: 56px;
+                        border: 1px solid #0071e4;
+                        border-radius: 8px;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0071e4;
+                        margin-left: 15px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .servislarmobile {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #services {
+        .wrapper {
+            h2 {
+                text-align: center;
+                font-style: normal;
+                font-family: "SFPRO bold";
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #100e0e;
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+            .servislar {
+                display: none;
+            }
+            .servislarmobile {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .carddiscount {
+                    display: flex;
+                    flex-direction: column;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    gap: 8px;
+                    padding: 16px 16px;
+                    .top {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+                        h4 {
+                            font-family: "SFPRO Bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #100e0e;
+                        }
+                    }
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #585656;
+                        max-width: 249px;
+                    }
+                }
+                .carddelivery {
+                    display: flex;
+                    flex-direction: column;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    gap: 8px;
+                    padding: 16px 16px;
+
+                    .top {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+                        h4 {
+                            font-family: "SFPRO Bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #100e0e;
+                        }
+                    }
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #585656;
+                        max-width: 227px;
+                    }
+                }
+                .cardwallet {
+                    display: flex;
+                    flex-direction: column;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    gap: 8px;
+                    padding: 16px 16px;
+
+                    .top {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+                        h4 {
+                            font-family: "SFPRO Bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #100e0e;
+                        }
+                    }
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #585656;
+                        max-width: 220px;
+                    }
+                }
+                .cardbank {
+                    display: flex;
+                    flex-direction: column;
+                    background: #f9f9f9;
+                    border-radius: 16px;
+                    gap: 8px;
+                    padding: 16px 16px;
+
+                    .top {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+                        h4 {
+                            font-family: "SFPRO Bold";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #100e0e;
+                        }
+                    }
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #585656;
+                        max-width: 252px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,301 @@
+#hero {
+    background-color: #d0eafc;
+    width: 100%;
+    height: 480px;
+    margin-top: 325px;
+    .wrapper {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .leftarrow {
+            position: absolute;
+            left: 0px;
+            cursor: pointer;
+        }
+        .rightarrow {
+            position: absolute;
+            right: -50px;
+            cursor: pointer;
+        }
+        .left {
+            margin-top: 99px;
+            .herokichkina {
+                display: none;
+            }
+            .engkichkina {
+                display: none;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            row-gap: 19px;
+            .narx {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 38px;
+                    color: #1e3240;
+                }
+                h2 {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 57px;
+
+                    color: #1e3240;
+                }
+            }
+
+            button {
+                width: 160px;
+                height: 56px;
+                background: #0071e4;
+                border: none;
+                border-radius: 8px;
+                color: white;
+                font-family: "SFPRO regular";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                cursor: pointer;
+                &:hover {
+                    cursor: pointer;
+                    background: #2a93fd;
+                }
+            }
+        }
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 115px;
+        justify-content: center;
+        h1 {
+            font-family: "SFPRO medium";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 57px;
+            color: #100e0e;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    #hero {
+        background-color: #d0eafc;
+        width: 100%;
+        height: 480px;
+        margin-top: 40px;
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            gap: 47px;
+            .leftarrow {
+                position: absolute;
+                left: 0px;
+                cursor: pointer;
+                top: 220px;
+            }
+            .rightarrow {
+                position: absolute;
+                right: 0px;
+                cursor: pointer;
+                top: 220px;
+            }
+            .left {
+                order: 2;
+                margin-top: 0px;
+                .herorasm {
+                    display: none;
+                }
+                .engkichkina {
+                    display: none;
+                }
+                .herokichkina {
+                    display: block;
+                }
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+                align-items: center;
+                img {
+                    margin-top: 40px;
+                    width: 308px;
+                    height: 72px;
+                }
+                .narx {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 5px;
+
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #1e3240;
+                    }
+                    h2 {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 57px;
+                        color: #1e3240;
+                    }
+                }
+                button {
+                    width: 160px;
+                    height: 56px;
+                    background: #0071e4;
+                    border: none;
+                    border-radius: 8px;
+                    color: white;
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    cursor: pointer;
+                    &:hover {
+                        cursor: pointer;
+                        background: #2a93fd;
+                    }
+                }
+            }
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 96px;
+            justify-content: center;
+            h1 {
+                font-family: "SFPRO medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                color: #100e0e;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    #hero {
+        height: 320px;
+        margin-top: 40px;
+        .wrapper {
+            gap: 12px;
+            .leftarrow {
+                position: absolute;
+                left: 0px;
+                cursor: pointer;
+                top: 132px;
+            }
+            .rightarrow {
+                position: absolute;
+                right: 0px;
+                cursor: pointer;
+                top: 132px;
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+                align-items: center;
+                img {
+                    margin-top: 16px;
+                    width: 192.5px;
+                    height: 45px;
+                }
+                .narx {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 5px;
+
+                    p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #1e3240;
+                    }
+                    h2 {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #1e3240;
+                    }
+                }
+                button {
+                    width: 160px;
+                    height: 40px;
+                    background: #0071e4;
+                    border: none;
+                    border-radius: 8px;
+                    color: white;
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    cursor: pointer;
+                    &:hover {
+                        cursor: pointer;
+                        background: #2a93fd;
+                    }
+                }
+            }
+            .left {
+                margin-top: 16px;
+                .engkichkina {
+                    display: block;
+                }
+                .herokichkina {
+                    display: none;
+                }
+                .herorasm {
+                    display: none;
+                }
+            }
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 61px;
+            justify-content: center;
+            h1 {
+                font-family: "SFPRO medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #100e0e;
+            }
+        }
+    }
+}

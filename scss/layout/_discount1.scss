@@ -1,0 +1,354 @@
+#discount1 {
+    width: 100%;
+    height: 2006px;
+    margin-top: 115px;
+    h3 {
+        font-family: "SFPRO medium";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #0071e4;
+        padding-bottom: 24px;
+    }
+    .flex-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        .card {
+            width: 282px;
+            height: 611px;
+            left: 120px;
+            top: 85px;
+            background: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 16px;
+            padding: 16px;
+
+            .top {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                .qoshimcha {
+                    display: flex;
+                    align-items: center;
+                    .imgs {
+                        gap: 8px;
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                    p {
+                        cursor: pointer;
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0071e4;
+                        margin-right: 37px;
+                    }
+                }
+            }
+            .card-h3 {
+                font-family: "SFPRO medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                color: #100e0e;
+                padding-top: 16px;
+                padding-bottom: 9px;
+            }
+            .iphone-rasmi {
+                display: flex;
+                justify-content: center;
+            }
+            .garantiya {
+                display: flex;
+                gap: 5px;
+                padding-top: 16px;
+                padding-bottom: 4px;
+
+                .yumaloq {
+                    width: 16px;
+                    height: 16px;
+                    background: #52d116;
+                    border-radius: 50%;
+                }
+                .plar {
+                    display: flex;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #706e6e;
+                    gap: 14px;
+                }
+            }
+            .chegirma {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                justify-content: space-between;
+
+                .chegirma-p {
+                    font-family: "SFPRO regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-decoration-line: line-through;
+                    color: #878787;
+                }
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 38px;
+                    color: #100e0e;
+                }
+            }
+            button {
+                width: 266px;
+                height: 56px;
+                left: 8px;
+                top: 504px;
+                background: #0071e4;
+                border-radius: 8px;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                margin-top: 16px;
+                margin-bottom: 8px;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #2a93fd;
+                }
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #ffffff;
+                }
+            }
+            .end {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .blue {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #0071e4;
+                }
+                p {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #706e6e;
+                }
+            }
+        }
+    }
+    .flex-wrapper2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #discount1 {
+        width: 100%;
+        height: 2605px;
+        margin-top: 115px;
+
+        .flex-wrapper {
+            display: none;
+        }
+        .flex-wrapper2 {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            .card {
+                width: 259px;
+                height: 380px;
+                left: 120px;
+                top: 85px;
+                background: #ffffff;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+                border-radius: 16px;
+                padding: 16px;
+                .top {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    .qoshimcha {
+                        display: flex;
+                        align-items: center;
+                        .imgs {
+                            gap: 8px;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                        p {
+                            cursor: pointer;
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #0071e4;
+                            margin-right: 19px;
+                        }
+                    }
+                }
+                .iphone-rasmi {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 16px;
+                    padding-bottom: 9px;
+                    img {
+                        width: 140px;
+                        height: 152px;
+                    }
+                }
+                .card-h3 {
+                    font-family: "SFPRO medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #100e0e;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+                .garantiya {
+                    display: flex;
+                    gap: 5px;
+                    padding-top: 12px;
+                    padding-bottom: 8px;
+
+                    .yumaloq {
+                        width: 16px;
+                        height: 16px;
+                        background: #52d116;
+                        border-radius: 50%;
+                    }
+                    .plar {
+                        display: flex;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #706e6e;
+                        gap: 22px;
+                    }
+                }
+                .chegirma {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    justify-content: center;
+                    margin-bottom: 12px;
+
+                    .chegirma-p {
+                        font-family: "SFPRO regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-decoration-line: line-through;
+                        color: #878787;
+                    }
+                    button {
+                        width: 140px;
+                        height: 40px;
+                        left: 8px;
+                        top: 504px;
+                        background: #0071e4;
+                        border-radius: 8px;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 8px;
+                        margin-bottom: 0px;
+                        &:hover {
+                            cursor: pointer;
+                            background: #2a93fd;
+                        }
+
+                        p {
+                            font-family: "SFPRO medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+                .end {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .blue {
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #0071e4;
+                    }
+                    p {
+                        font-family: "SFPRO medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #706e6e;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #discount1 {
+        height: 4731px;
+        width: 100%;
+        margin-top: 94px;
+        h3 {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .flex-wrapper {
+            display: none;
+        }
+        .flex-wrapper2 {
+            gap: 8px;
+        }
+    }
+}
